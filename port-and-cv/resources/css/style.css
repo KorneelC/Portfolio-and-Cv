@@ -50,26 +50,31 @@ body {
 .exercises {
   font-size: 24px;
   text-decoration: underline;
-  padding-left: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #220606;
 }
 
 .p2-con-1 {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: 33%;
   min-height: 20rem;
-  background-color: #882838;
   padding-left: 2rem;
 }
 
 .explanation {
-  width: 60%;
   font-size: 20px;
+  text-align: center;
 }
 
 .img-con {
-  width: 40%;
-  padding-left: 2rem;
+  text-align: center;
 }
 
 .screenshot-ex {
