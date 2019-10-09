@@ -1,5 +1,4 @@
-@media only screen and (min-width:971px) {
-
+@media only screen and (max-width: 970px) {
 
 body {
     background-color: $main-background-color;
@@ -11,7 +10,6 @@ body {
     background-size: 100%;
     background-color: rgba($color: #000000, $alpha: 0.8);
     background-repeat: no-repeat;
-    min-height: 120vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,9 +56,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 48%;
     min-height:20rem;
-    padding-left: 2rem;
+    padding-left:1rem;
 }
 .explanation {
     font-size:20px;

@@ -1,86 +1,165 @@
-body {
-  background-color: #220606;
-  font-family: "Squada One", cursive;
-  color: #fff;
-}
+@media only screen and (max-width: 970px) {
+  body {
+    background-color: #220606;
+    font-family: "Squada One", cursive;
+    color: #fff;
+  }
 
-.first-page {
-  background: url(../images/Background-portfolio.jpg);
-  background-size: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  background-repeat: no-repeat;
-  min-height: 120vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .first-page {
+    background: url(../images/Background-portfolio.jpg);
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.hello {
-  font-size: 30px;
-  opacity: 1;
-  padding-top: 20rem;
-}
+  .hello {
+    font-size: 30px;
+    opacity: 1;
+    padding-top: 15rem;
+  }
 
-.hello span {
-  display: block;
-}
+  .hello span {
+    display: block;
+  }
 
-.me {
-  margin-top: 15rem;
-  margin-left: 5rem;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  opacity: 0.5;
-}
+  .me {
+    margin-top: 14rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+  }
 
-.second-page {
-  margin-top: 2rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 120vh;
-  padding-top: 2rem;
-}
+  .second-page {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 120vh;
+    padding-top: 2rem;
+  }
 
-.skills {
-  text-align: center;
-}
+  .skills {
+    text-align: center;
+  }
 
-.exercises {
-  font-size: 24px;
-  text-decoration: underline;
-  text-align: center;
-}
+  .exercises {
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+  }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #220606;
-}
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #220606;
+  }
 
-.p2-con-1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 33%;
-  min-height: 20rem;
-  padding-left: 2rem;
-}
+  .p2-con-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    min-height: 20rem;
+    padding-left: 1rem;
+  }
 
-.explanation {
-  font-size: 20px;
-  text-align: center;
-}
+  .explanation {
+    font-size: 20px;
+    text-align: center;
+  }
 
-.img-con {
-  text-align: center;
+  .screenshot-ex {
+    width: 100%;
+    height: 65%;
+    opacity: 0.65;
+  }
 }
+@media only screen and (min-width: 971px) {
+  body {
+    background-color: #220606;
+    font-family: "Squada One", cursive;
+    color: #fff;
+  }
 
-.screenshot-ex {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  .first-page {
+    background: url(../images/Background-portfolio.jpg);
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hello {
+    font-size: 30px;
+    opacity: 1;
+    padding-top: 15rem;
+  }
+
+  .hello span {
+    display: block;
+  }
+
+  .me {
+    margin-top: 14rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+  }
+
+  .second-page {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 120vh;
+    padding-top: 2rem;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .exercises {
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #220606;
+  }
+
+  .p2-con-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    min-height: 20rem;
+    padding-left: 2rem;
+  }
+
+  .explanation {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .screenshot-ex {
+    width: 100%;
+    height: 65%;
+    opacity: 0.65;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
