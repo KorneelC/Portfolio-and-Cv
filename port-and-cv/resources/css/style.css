@@ -1,0 +1,81 @@
+body {
+  background-color: #220606;
+  font-family: "Squada One", cursive;
+  color: #fff;
+}
+
+.first-page {
+  background: url(../images/Background-portfolio.jpg);
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+  min-height: 120vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 30px;
+  opacity: 1;
+  padding-top: 20rem;
+}
+
+.hello span {
+  display: block;
+}
+
+.me {
+  margin-top: 15rem;
+  margin-left: 5rem;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+
+.second-page {
+  margin-top: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 120vh;
+  padding-top: 2rem;
+}
+
+.skills {
+  text-align: center;
+}
+
+.exercises {
+  font-size: 24px;
+  text-decoration: underline;
+  padding-left: 2rem;
+}
+
+.p2-con-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 20rem;
+  background-color: #882838;
+  padding-left: 2rem;
+}
+
+.explanation {
+  width: 60%;
+  font-size: 20px;
+}
+
+.img-con {
+  width: 40%;
+  padding-left: 2rem;
+}
+
+.screenshot-ex {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
