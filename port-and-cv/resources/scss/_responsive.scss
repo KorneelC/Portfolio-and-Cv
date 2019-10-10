@@ -11,6 +11,7 @@ body {
     background-color: rgba($color: #000000, $alpha: 0.8);
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -58,7 +59,7 @@ body {
     justify-content: center;
     width: 48%;
     min-height:20rem;
-    padding-left:1rem;
+    padding-left:2%;
 }
 .explanation {
     font-size:20px;

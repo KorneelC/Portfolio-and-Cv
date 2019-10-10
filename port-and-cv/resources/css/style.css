@@ -11,6 +11,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -65,7 +66,7 @@
     justify-content: center;
     width: 48%;
     min-height: 20rem;
-    padding-left: 1rem;
+    padding-left: 2%;
   }
 
   .explanation {
@@ -84,6 +85,10 @@
     background-color: #220606;
     font-family: "Squada One", cursive;
     color: #fff;
+  }
+
+  .elements {
+    color: #8fd7ff;
   }
 
   .first-page {
@@ -146,7 +151,7 @@
     flex-direction: column;
     justify-content: center;
     width: 30%;
-    min-height: 20rem;
+    min-height: 30rem;
     padding-left: 2rem;
   }
 
@@ -155,11 +160,82 @@
     text-align: center;
   }
 
-  .screenshot-ex {
-    width: 100%;
-    height: 65%;
+  .screenshot-ex-1, .screenshot-ex-2, .screenshot-ex-3, .screenshot-ex-4 {
     opacity: 0.65;
+    transition: 0.5s;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
   }
+
+  .screenshot-ex-1 {
+    background-image: url(../images/lol.png);
+  }
+
+  .screenshot-ex-2 {
+    background-image: url(../images/about.png);
+  }
+
+  .screenshot-ex-3 {
+    background-image: url(../images/Chessboard.png);
+  }
+
+  .screenshot-ex-4 {
+    background-image: url(../images/behind-the-scenes.png);
+  }
+
+  .screenshot-ex-1:hover, .screenshot-ex-2:hover, .screenshot-ex-3:hover, .screenshot-ex-4:hover {
+    cursor: pointer;
+    background-size: 110%;
+  }
+
+  a {
+    height: 100%;
+    color: #fff;
+    border-left: 1px #fff;
+    border-right: 1px #fff;
+  }
+
+  a:hover {
+    color: gray;
+  }
+
+  ul {
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 25px;
+    position: fixed;
+    background-color: #1c1919;
+    font-size: 18px;
+    z-index: 1;
+  }
+
+  li {
+    display: inline;
+    padding-left: 5px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .fab {
+    font-size: 50px;
+    color: #8fd7ff;
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
