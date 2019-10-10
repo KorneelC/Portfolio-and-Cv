@@ -68,7 +68,7 @@ body {
     font-size:20px;
     text-align: center;
 }
-.screenshot-ex-1,.screenshot-ex-2,.screenshot-ex-3,.screenshot-ex-4 {
+.screenshot-ex-1,.screenshot-ex-2,.screenshot-ex-3,.screenshot-ex-4,.screenshot-ex-5,.screenshot-ex-6 {
     opacity: 0.65;
     transition: 0.5s;
     background-size: 100%;
@@ -89,7 +89,13 @@ body {
 .screenshot-ex-4 {
     background-image: url(../images/behind-the-scenes.png);
 }
-.screenshot-ex-1:hover,.screenshot-ex-2:hover,.screenshot-ex-3:hover,.screenshot-ex-4:hover {
+.screenshot-ex-5 {
+    background-image: url(../images/minesweeper.png);
+}
+.screenshot-ex-6 {
+    background-image: url(../images/admin.png);
+}
+.screenshot-ex-1:hover,.screenshot-ex-2:hover,.screenshot-ex-3:hover,.screenshot-ex-4:hover,.screenshot-ex-5:hover,.screenshot-ex-6:hover {
     cursor: pointer;
     background-size: 110%;
 }
