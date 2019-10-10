@@ -1,9 +1,15 @@
+body {
+    margin: 0 auto;
+    width: 1024px;
+    background-color: gray;
+}
 .head-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    background-color: #fff;
 }
 /*verticale container*/
 .container-1-person {
@@ -15,8 +21,8 @@
     color:white;
 }
 .me {
-    width: 50%;
-    height:20%;
+    width: 100%;
+    max-height: 15%;
     border-radius: 50%;
 }
 /*personalia*/
@@ -29,6 +35,9 @@
 }
 .upper-person::first-letter,.lower-person::first-letter {
     text-transform: uppercase;
+}
+.lower-person {
+    margin-bottom: 10px;
 }
 .lower-person span {
     display: block;
@@ -43,7 +52,6 @@
 }
 .align-right {
     float:right;
-    padding-right: 1.2rem;
     width: 40%;
 }
 /*container2*/
@@ -51,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 73%;
+    width: 70%;
     height: 100%;
     padding-left:1rem; 
 }
@@ -63,4 +71,19 @@
 .titel-opleiding {
     font-weight: bold;
     width: 100%;
+    margin-bottom: 2%;
+}
+.desc {
+    margin-bottom:1%;
+}
+.prog {
+    width: 40%;
+    height: 3%;
+    margin: 2%;
+}
+p {
+    margin: 5px;
+}
+ul {
+    margin-top: 0;
 }
