@@ -2,13 +2,13 @@
 
 .first-page {
     min-height: 100vh;
-    flex-direction: row;
     background-image: url(../images/Background-mob.jpg);
 }
 .hello {
     padding-top: 20%; 
     padding-left: 5%;
     height: 20%;
+    text-align: left;
 }
 .me {
     margin: 0;
@@ -18,9 +18,12 @@
     height:20%;
     opacity: 0.8;
 }
-
+.row {
+    flex-direction: column;
+    margin-right: 2%;
+}
 .p2-con-1 {
-    width: 47%;
+    width: 100%;
     min-height:30rem;
 }
 .explanation {
