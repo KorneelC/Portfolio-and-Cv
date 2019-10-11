@@ -1,133 +1,33 @@
 @media only screen and (max-width: 970px) {
 
-body {
-    background-color: $main-background-color;
-    font-family: 'Squada One', cursive;
-    color: $textcolor;
-}
 .first-page {
-    background:url(../images/Background-portfolio.jpg);
-    background-size: cover;
-    background-color: rgba($color: #000000, $alpha: 0.8);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    min-height: 100vh;
+    flex-direction: row;
+    background-image: url(../images/Background-mob.jpg);
 }
 .hello {
-    font-size: 30px;
-    opacity: 1;
     padding-top: 20%; 
     padding-left: 5%;
-}
-.hello span {
-    display: block;
+    height: 20%;
 }
 .me {
+    margin: 0;
+    margin-bottom: 2%;
     border-radius: 50%;
     width: 20%;
     height:20%;
     opacity: 0.8;
 }
-.second-page {
-    margin-top:2rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 120vh;
-    padding-top:2rem;
-}
-.skills {
-    text-align: center;
-}
 
-.exercises{ 
-    font-size: 24px;
-    text-decoration: underline;
-    text-align: center;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: $main-background-color;
-}
 .p2-con-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 48%;
+    width: 47%;
     min-height:30rem;
-    padding-left:2%;
 }
 .explanation {
     font-size:1.3rem;
-    text-align: center;
+    text-align: left;
 }
-.screenshot-ex {
-    width:100%;
-    height: 65%;
-    opacity: 0.65;
-}
-.screenshot-ex-1,.screenshot-ex-2,.screenshot-ex-3,.screenshot-ex-4 {
-    opacity: 0.65;
-    transition: 0.5s;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-.screenshot-ex-1 {
-    background-image: url(../images/lol.png);
-}
-.screenshot-ex-2 {
-    background-image: url(../images/about.png);
-}
-.screenshot-ex-3 {
-    background-image: url(../images/Chessboard.png);
-}
-.screenshot-ex-4 {
-    background-image: url(../images/behind-the-scenes.png);
-}
-.screenshot-ex-1:hover,.screenshot-ex-2:hover,.screenshot-ex-3:hover,.screenshot-ex-4:hover {
-    cursor: pointer;
-    background-size: 110%;
-}
-a {
-    height: 100%;
-    color:$textcolor;
-    border-left: 1px $textcolor;
-    border-right: 1px $textcolor;
-}
-a:hover {
-    color:gray;
-}
-ul {
-  list-style-type: none;
-  width: 100%;
-  height:50px;
-  margin: 0;
-  padding-left:10px; 
-  padding-top: 25px;
-  position: fixed;
-  background-color: #1c1919;
-  font-size: 18px;
-  z-index: 1;
-}
-
-li {
-  display: inline;
-  padding-left:5px;
- 
-}
-.icons {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-bottom:1rem;
-}
-.fab{
-    font-size: 50px;
-    color:$elementcolor;
+.fab {
+    font-size: 5vw;
 }
 }
